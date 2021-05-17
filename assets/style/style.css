@@ -1,0 +1,517 @@
+@font-face{
+    font-family: "gotham-black";
+    src: url(../font/Gotham-Font/Gotham-Black.otf);
+}
+
+@font-face{
+    font-family: "ghotam-bold";
+    src: url(../font/Gotham-Font/Gotham-Bold.otf);
+}
+
+:root {
+    --color-yellow: #000000;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    color: #fff;
+    font-family: 'gotham-black', sans-serif;
+}
+
+body {
+    background-color: #fff;
+}
+
+header {
+    display: flex;
+    background-image: url(../image/bgone.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    border-radius: 0 0 1.5rem 1.5rem;
+}
+
+header > div {
+    width: 80%;
+    margin: auto;
+}
+
+.backtop {
+    width: 80%;
+    max-width: 1080px;
+    margin: 0 auto 2rem auto;
+}
+
+.texttop p:nth-child(1) {
+    font-size: 2rem;
+    text-align: center;
+    margin: 4rem auto 2rem auto;
+    max-width: 790px;
+}
+
+.texttop p:nth-child(2) {
+    font-size: 1.3rem;
+    text-align: center;
+    margin: 0 auto 2rem auto;
+    font-family: "ghotam-medium", sans-serif;
+}
+
+p strong {
+    color: var(--color-yellow);
+    text-decoration: underline;
+}
+
+span {
+    font-size: 0.8rem;
+    display: flex;
+    width: 100%;
+    margin: auto;
+    margin-bottom: 0.5rem;
+    justify-content: center;
+    color: #c9c9c9;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#video {
+    display: flex;
+    justify-content: center;
+}
+
+.video {
+    display: flex;
+    justify-content: center;
+    background-color: aliceblue;
+    width: 640px;
+    height: 360px;
+}
+
+.button {
+    display: flex;
+    width: fit-content;
+    padding: 0.4rem 3rem;
+    margin: 2rem auto 2rem auto;
+    background-color: var(--color-yellow);
+    border-radius: 10rem;
+    transition: 0.7s;
+}
+
+.button a {
+    display: flex;
+    color: #fff;
+    text-decoration: none;
+}
+
+.button:hover {
+    cursor: pointer;
+}
+
+.text-button {
+    display: flex;
+    align-items: center;
+}
+
+.button p {
+    font-size: 1.1rem;
+    font-family: "ghotam-bold", sans-serif;
+    transition: 0.7s;
+}
+
+.button:hover p {
+    letter-spacing: 1px;
+}
+
+main {
+    width: 80%;
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+.title {
+    display: flex;
+    margin: 0 auto 2rem auto;
+    width: 80%;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.title p:nth-child(1) {
+    font-size: 1.5rem;
+}
+
+.title p {
+    color: black;
+    font-size: 1rem;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.title p:nth-child(2) {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.topcs {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 53px;
+}
+
+.container__benefcs {
+    background-color: var(--color-yellow);
+    padding: 2rem 0;
+    border-radius: 2rem;
+}
+
+.content__benefics {
+    width: 90%;
+    max-width: 1080px;
+    margin: auto;
+}
+
+.content__benefics .image {
+    display: grid;
+    justify-content: center;
+    margin-bottom: 1.5rem;
+}
+
+.content__benefics .image img {
+    width: 6rem;
+}
+
+.content__benefics h3, .content__benefics p {
+    text-align: center;
+    font-family: "ghotam-bold";
+}
+
+.content__benefics h3 {
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+}
+
+.content__benefics p {
+    font-size: 1rem;
+}
+
+.mainend p {
+    color: #000;
+    font-size: 1.1rem;
+    text-align: center;
+    margin-top: 2rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.content-beneficios {
+    width: 90%;
+    max-width: 1080px;
+    margin: 0 auto 5rem auto;
+}
+
+.texttopone {
+    color: #000;
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 3rem;
+}
+
+.contaners__up__benefics {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px 60px;
+    width: 90%;
+    margin: auto;
+}
+
+.content__up__benefic {
+    background-color: var(--color-yellow);
+    padding: 3rem 0;
+    border-radius: 2rem;
+}
+
+.content__up__benefic .image {
+    display: grid;
+    justify-content: center;
+    margin-bottom: 1.5rem;
+}
+
+.content__up__benefic .image img {
+    width: 6rem;
+}
+
+.content__up__benefic h3, .content__up__benefic p {
+    text-align: center;
+    font-family: "ghotam-bold";
+    width: 90%;
+    margin: auto;
+}
+
+.content__up__benefic h3 {
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+}
+
+.content__up__benefic p {
+    font-size: 1rem;
+}
+
+.font {
+    font-size: 1.5rem;
+}
+
+.buttonwhite {
+    display: flex;
+    width: fit-content;
+    padding: 0.4rem 3rem;
+    margin: 2rem auto 0 auto;
+    background-color: #fff;
+    border-radius: 10rem;
+    transition: 0.7s;
+}
+
+.buttonwhite .icon {
+    margin-right: 1rem;
+}
+
+.buttonwhite a {
+    display: flex;
+    text-decoration: none;
+}
+
+.buttonwhite:hover {
+    cursor: pointer;
+}
+
+.buttonwhite p {
+    font-size: 1.1rem;
+    color: var(--color-yellow);
+    transition: 0.7s;
+}
+
+.buttonwhite:hover p {
+    letter-spacing: 1px;
+}
+
+.cicle {
+    display: flex;
+    justify-content: center;
+}
+
+.ciclecicle {
+    position: absolute;
+    transform: matrix(1, 0, 0, 1, 0, -192);
+    border-radius: 100%;
+    width: 12rem;
+    height: 12rem;
+    background-color: var(--color-yellow);
+}
+
+.container-carrosel {
+    width: 80%;
+    margin: 5rem auto 5rem auto;
+    max-width: 1080px;
+}
+
+.container-carrosel p {
+    font-size: 1.8rem;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.button-left {
+    display: flex;
+    align-items: center;
+}
+
+.content-what {
+    display: flex;
+    position: relative;
+    width: 80%;
+    max-width: 990px;
+    margin: auto;
+    padding: 1rem 0;
+}
+
+.conteconten-what {
+    position: relative;
+}
+
+.title-before {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    display: none;
+}
+
+.foto {
+    float: right;
+}
+
+.foto img {
+    transform: matrix(1.2, 0, 0, 1.2, 0, 7);
+    width: 16rem;
+}
+
+.foto-before {
+    display: none;
+}
+
+.text-what {
+    display: flex;
+    width: 60%;
+    align-items: center;
+    height: 100%;
+}
+
+.title-what-initial {
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
+    font-weight: bold;
+}
+
+.description {
+    font-size: 1rem;
+    margin-bottom: 1.1rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#slider {
+    display: flex;
+    width: 80vw;
+    max-width: 640px;
+    height: 50vw;
+    max-height: 360px;
+    margin: auto;
+
+    position: relative;
+}
+
+#slider .image {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+#slider .image img {
+    opacity: 0;
+    position: absolute;
+
+    width: 80%;
+    height: 85%;
+
+    object-fit: contain;
+    transition: opacity 0.8s;
+}
+
+#slider .image img.selected {
+    opacity: 1;
+}
+
+.bullets {
+    display: flex;
+    width: 180px;
+    height: 18px;
+    margin: 0 auto;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 0;
+}
+
+.bullet {
+    display: flex;
+    width: 18px;
+    height: 15px;
+}
+
+.bullet.select {
+    border: 1px solid var(--color-yellow);
+    border-radius: 100%;
+}
+
+.circle {
+    background-color: var(--color-yellow);
+    width: 7px;
+    height: 7px;
+    border-radius: 180px;
+    margin: auto;
+}
+
+.button-right {
+    display: flex;
+    align-items: center;
+}
+
+p.call__to__whats {
+    margin-top: 2rem;
+    font-size: 1.3rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container-carrosel .button p {
+    font-size: inherit;
+    margin-bottom: inherit;
+}
+
+.propost {
+    display: flex;
+    justify-content: center;
+    padding: 4rem 0;
+}
+
+.content-propost {
+    width: 100%;
+    max-width: 1600px;
+    background-color: var(--color-yellow);
+    border-radius: 5rem;
+    padding: 3rem 1rem;
+}
+
+.content-propost > h3 {
+    font-size: 1.6rem;
+    text-align: center;
+    margin-bottom: 2.5rem;
+    text-decoration: underline 1px rgba(255, 255, 255, 0.4);
+}
+
+.content-propost > p {
+    display: grid;
+    font-size: 1.2rem;
+    color: #fff;
+    width: 90%;
+    text-align: center;
+    margin: 0 auto 1rem auto;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.content-propost .button {
+    margin-bottom: 0;
+}
+
+footer {
+    background-color: var(--color-yellow);
+}
+
+.footerend {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    max-width: 1600px;
+    margin: auto;
+    align-items: center;
+    padding: 0.5rem 0;
+}
+
+.footerend p {
+    font-size: 1rem;
+    font-family: 'gotham-bold', sans-serif;
+}
+
+.footerend a {
+    display: grid;
+    width: fit-content;
+}
+
+.footerend img {
+    width: 3rem;
+}

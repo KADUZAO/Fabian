@@ -1,0 +1,413 @@
+@media screen and (max-width:1080px) {
+    html {
+        font-size: 93.75%;
+    }
+}
+
+@media screen and (max-width:970px) {
+    .video {
+        width: 85%;
+        height: 15rem;
+    }
+
+    .topc {
+        height: auto;
+        margin-bottom: 1rem;
+    }
+
+    .image-right {
+        float: none;
+    }
+
+    .image-left {
+        float: none;
+    }
+
+    .topc-container {
+        width: 100%;
+        margin: auto;
+    }
+
+    .content-topc img {
+        width: 25%;
+    }
+
+    .topctext {
+        width: 80%;
+        margin: auto;
+    }
+
+    .topctext p {
+        text-align: center;
+    }
+
+    section.benefcimage img {
+        width: 25%;
+    }
+
+    .title {
+        width: 100%;
+    }
+
+    #slider .image img {
+        height: 80%;
+    }
+
+    .what p {
+        color: #fff;
+    }
+
+    .what .buttonwhite p {
+        color: var(--color-yellow);
+    }
+
+    .conteconten-what {
+        display: block;
+    }
+
+    .title-before {
+        display: flex;
+        justify-content: center;
+    }
+
+    .title-before p {
+        text-align: center;
+        width: 95%;
+    }
+
+    .content-beneficios {
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+
+    .propost {
+        padding: 0;
+        margin-bottom: 0;
+    }
+
+    .foto {
+        display: grid;
+        margin: auto;
+        float: none;
+        justify-content: center;
+    }
+
+    .foto img {
+        position: initial;
+        width: 20rem;
+        transform: matrix(1, 0, 0, 1, 0, 0);
+    }
+
+    .title-what-initial {
+        display: none;
+    }
+
+    .text-what {
+        width: 90%;
+        height: auto;
+        margin: 1rem auto 0 auto;
+    }
+
+    .content-text-what {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:720px) {
+    html {
+        font-size: 87.5%;
+    }
+
+    header > div {
+        width: 90%;
+    }
+
+    .backtop {
+        width: 100%;
+        margin-bottom: 0;
+    }
+
+    .texttop p:nth-child(1) {
+        font-size: 1.6rem;
+    }
+    .texttop p:nth-child(2) {
+        font-size: 1rem;
+    }
+
+    .limited {
+        display: flex;
+        width: 95%;
+        justify-content: center;
+        margin: auto;
+    }
+
+    main {
+        width: 90%;
+    }
+
+    .texttopone {
+        font-size: 1.4rem;
+    }
+
+    .title p:nth-child(1) {
+        font-size: 1.3rem;
+    }
+
+    .topcs {
+        grid-template-columns: 1fr;
+    }
+
+    .contaners__up__benefics {
+        grid-template-columns: 1fr;
+    }
+
+    .beneficios > div {
+        width: 90%;
+        margin: 2rem auto 0 auto;
+    }
+
+    .font {
+        font-size: 1rem;
+    }
+
+    .content-beneficios .button p {
+        font-size: 0.9rem;
+    }
+
+    .content-propost {
+        width: 100%;
+        border-radius: 2rem;
+    }
+
+    .content-what {
+        width: 90%;
+    }
+
+    p.call__to__whats {
+        margin-top: 4rem;
+    }
+
+    .container-carrosel {
+        width: 90%;
+        margin: 2rem auto;
+    }
+
+    .footerend {
+        display: block;
+    }
+
+    .footerend p {
+        margin-bottom: 1rem;
+        text-align: center;
+    }
+
+    .footerend a {
+        margin: auto;
+    }
+
+    .description {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width:542px) {
+    header {
+        padding-bottom: 3rem;
+    }
+    .texttop p {
+        font-size: 2rem;
+    }
+
+    .limited > div {
+        width: 90%;
+    }
+
+    .video {
+        width: 100%;
+        height: 12rem;
+    }
+
+    .button {
+        padding: 0.8rem 1.6rem;
+        border-radius: 0.8rem;
+        margin-top: 3rem;
+    }
+
+    .button p {
+        font-size: 0.9rem;
+    }
+
+    .buttonwhite {
+        padding: 0.8rem 1.6rem;
+        border-radius: 0.8rem;
+    }
+
+    .buttonwhite p {
+        font-size: 0.9rem;
+    }
+
+    .button .icon img {
+        width: 75%;
+    } 
+
+    .buttonwhite .icon img {
+        width: 75%;
+    }
+
+    .content-text-what .buttonwhite p {
+        font-size: 1rem;
+    }
+
+    .content-what {
+        width: 100%;
+    }
+
+    section.benefcimage {
+        display: block;
+    }
+
+    section.benefcimage .containers-beneficios {
+        width: 90%;
+    }
+
+    section.benefcimage .margin-left {
+        margin: 0 auto 2rem auto;
+    }
+
+    section.benefcimage .margin-right {
+        margin: 0 auto 2rem auto;
+    }
+
+    #slider .image img {
+        width: 90%;
+        height: 90%;
+    }
+
+    .bullets {
+        align-items: flex-end;
+        bottom: -35px;
+    }
+
+    .bullet {
+        width: 13px;
+        height: 13px;
+    }
+
+    .circle {
+        width: 5px;
+        height: 5px;
+    }
+
+    .button-left {
+        width: 3rem;
+        align-items: flex-end;
+        margin-top: 16rem;
+    }
+
+    .button-left img {
+        width: 90%;
+    }
+
+    .button-right {
+        width: 3rem;
+        justify-content: flex-end;
+        align-items: flex-end;
+        margin-top: 16rem;
+    }
+
+    .button-right img {
+        width: 90%;
+    }
+
+    .foto img {
+        width: 11rem;
+    }
+}
+
+@media screen and (max-width: 415px) {
+    .texttop p {
+        font-size: 1.3rem;
+    }
+
+    span {
+        font-size: 0.6rem;
+    }
+
+    .mainend p {
+        font-size: 1rem;
+    }
+
+    .topctext p {
+        font-size: 1rem;
+    }
+
+    .texttoptwo {
+        font-size: 1.5rem;
+    }
+
+    .button .icon img {
+        width: 65%;
+    }
+
+    .buttonwhite .icon img {
+        width: 65%;
+    }
+
+    .containers-beneficios p {
+        font-size: 1rem;
+    }
+
+    .bullets {
+        bottom: -28px;
+    }
+
+    .textbottom {
+        font-size: 1.2rem;
+    }
+
+    .container-carrosel p {
+        font-size: 1rem;
+    }
+
+    .content-propost > p {
+        font-size: 1rem;
+    }
+
+    .button .icon {
+        margin-right: 00;
+    }
+}
+
+@media screen and (max-width:409px) {
+    span {
+        font-size: 0.65rem;
+    }
+
+    .backtop .button p {
+        font-size: 0.8rem;
+    }
+
+    .video {
+        height: 11.5rem;
+    }
+
+    .buttonwhite .icon {
+        margin-right: 0.7rem;
+    }
+
+    .text-what {
+        width: 90%;
+        margin: auto;
+        margin-top: 1rem;
+    }
+}
+
+@media screen and (max-width: 390px) {
+    span {
+        font-size: 0.5rem;
+    }
+
+    .video {
+        height: 11rem;
+    }
+}
